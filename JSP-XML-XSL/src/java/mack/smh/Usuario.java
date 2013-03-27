@@ -1,0 +1,20 @@
+package mack.smh;
+
+public class Usuario {
+    private String user;
+    private String password;
+
+    
+    public String getLogin() {
+        return user;
+    }
+    public void setLogin(String user) {
+        this.user = user;
+    }
+    public String getPassword() {
+        return password;
+    }
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
